@@ -11,7 +11,8 @@ namespace Tyuiu.ChashkovTA.Sprint3.Task0.V18.Lib
             {
                 product *= Math.Pow((2 / (Math.Cos(value) + 0.5)), k);
             }
-            return product;
+            return Math.Round(product, 2);
+
         }
     }
 }
