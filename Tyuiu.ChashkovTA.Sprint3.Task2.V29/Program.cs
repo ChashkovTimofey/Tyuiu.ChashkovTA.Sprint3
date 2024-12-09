@@ -33,7 +33,7 @@ namespace Tyuiu.ChashkovTA.Sprint3.Task2.V29
 
             DataService ds = new DataService();
 
-            var result = ds.YOURFUNCTION();
+            var result = ds.GetSumSeries(1, 1, 1);
             Console.WriteLine(result);
             Console.ReadKey();
         }
