@@ -7,9 +7,9 @@ namespace Tyuiu.ChashkovTA.Sprint3.Task0.V18.Lib
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
             double product = 1;
-            for (int k = 1; k <= 6; k++)
+            for (int k = startValue; k <= stopValue; k++)
             {
-                product *= Math.Pow((2 / (Math.Cos(k) + 0.5)), k);
+                product *= Math.Pow((2 / (Math.Cos(value) + 0.5)), k);
             }
             return product;
         }

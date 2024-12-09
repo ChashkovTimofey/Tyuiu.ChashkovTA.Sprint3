@@ -33,7 +33,7 @@ namespace Tyuiu.ChashkovTA.Sprint3.Task0.V18
 
             DataService ds = new DataService();
 
-            var result = ds.GetMultiplySeries(1, 2, 4);
+            var result = ds.GetMultiplySeries(1, 1, 1);
             Console.WriteLine(result);
             Console.ReadKey();
         }
