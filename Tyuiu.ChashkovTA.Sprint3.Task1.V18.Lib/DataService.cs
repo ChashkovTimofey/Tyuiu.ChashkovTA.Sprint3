@@ -14,7 +14,7 @@ namespace Tyuiu.ChashkovTA.Sprint3.Task1.V18.Lib
                 i++;
 
             }
-            return sum;
+            return MAth.Round(sum, 3);
         }
     }
 }
