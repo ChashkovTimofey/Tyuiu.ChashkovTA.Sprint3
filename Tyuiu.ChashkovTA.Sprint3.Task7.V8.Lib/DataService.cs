@@ -20,7 +20,7 @@ namespace Tyuiu.ChashkovTA.Sprint3.Task7.V8.Lib
                 }
                 else
                 {
-                    y = Math.Sin(x) + (Math.Cos(x) + 1) / (2 - x) + 2 * x;
+                    y = Math.Round(Math.Sin(x) + (Math.Cos(x) + 1) / (2 - x) + 2 * x, 3);
 
                 }
                 Console.WriteLine(y);
