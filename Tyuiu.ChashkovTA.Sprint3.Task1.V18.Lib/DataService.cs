@@ -12,6 +12,7 @@ namespace Tyuiu.ChashkovTA.Sprint3.Task1.V18.Lib
             {
                 sum += Math.Sin(i) * Math.Pow(1.0 / 4.0, 2);
                 i++;
+
             }
             return sum;
         }
