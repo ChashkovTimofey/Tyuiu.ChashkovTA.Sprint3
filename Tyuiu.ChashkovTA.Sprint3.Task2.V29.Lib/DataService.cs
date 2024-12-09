@@ -10,10 +10,10 @@ namespace Tyuiu.ChashkovTA.Sprint3.Task2.V29.Lib
             int k = startValue;
             do
             {
-                sum += (value + 0.25) * Math.Cos(k);
+                sum += (Math.Pow(value, k) + 0.25) * Math.Cos(k);
                 k++;
             } while (k <= stopValue);
-            return sum;
+            return Math.Round(sum, 3);
         }
     }
 }
